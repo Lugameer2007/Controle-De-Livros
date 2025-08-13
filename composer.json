@@ -1,0 +1,20 @@
+{
+    "name": "lara/controledelivros",
+    "description": "Controle de Livros",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lara\\Projeto\\": "Projeto/",
+            "Comtroller\\": "Controller/",
+            "model\\": "Model/"
+        },
+        "files": [
+            "Config/configuration.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 8.0",
+        "ext->mbetring": "*"
+    }
+}
