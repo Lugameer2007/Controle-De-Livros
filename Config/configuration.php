@@ -1,10 +1,14 @@
 <?php
 
-//configuração do banco de dados
-define(content_name: "DB_HOST", Value: "Localhost");//Servidor do banco de dados
-define(content_name: "DB_NAME", Value: "api");//Nome do banco de dados 
-define(content_name: "DB_USER", Value: "root");//Nome do usúario do banco
-define(content_name: "DB_CATEGORY", Value: "");
-define(content_name: "DB_PORT", Value: "3306");//Porta do banco (padrão MySQL)
+if (!'defined'('SECURE_ACCESS')) {
+    die ('Acesso direto não permitido.');
+}
+
+// Configuração do banco de dados
+'define'("DB_HOST", "localhost");                     // Servidor do banco de dados
+'define'("DB_NAME", "Controle de livros");           // Nome do banco de dados 
+'define'("DB_USER", "root");                        // Nome do usuário do banco
+'define'("DB_PASS", "");                           // Senha do banco (adicione se necessário)
+'define'("DB_PORT", "3306");                      // Porta do banco (padrão MySQL)
 
 ?>
