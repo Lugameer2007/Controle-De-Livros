@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="Cabeçalho">
-        <h3>Controle De Livros</h3>
+        <h2>Controle De Livros</h2>
     </header>
         <h3>Adicionar Livros</h3>
     <section>
@@ -33,3 +33,7 @@
         <h3>Lista de Livros</h3>
         <ul id="lista-livros"></ul>
     </section>
+
+    <script>
+        <script src="js/app.js"></script>
+    </script>
