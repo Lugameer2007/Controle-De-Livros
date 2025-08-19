@@ -34,6 +34,6 @@
         <ul id="lista-livros"></ul>
     </section>
 
-    <script>
+   <script>
         <script src="js/app.js"></script>
-    </script>
+   </script>
