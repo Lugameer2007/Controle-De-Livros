@@ -5,7 +5,7 @@ namespace Model;
 use PDO;
 use PDOException;
 
-require_once __DIR__ . '/configuration.php'; // Corrigido o caminho
+require_once __DIR__ . '/configuration.php'; 
 
 class Connection {
     public static function getConnection() {
@@ -19,9 +19,10 @@ class Connection {
                 ]
             );
         } catch (PDOException $e) {
-            error_log($e->getMessage);
+            error_log($e->getMessage());
             die("Erro de conexão: " . $e->getMessage());
         }
     }
 }
+
 ?>
